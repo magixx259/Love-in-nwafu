@@ -11,6 +11,9 @@ define phone = Character("电话那头", color="#8899aa")
 
 # 背景占位
 image bg room = "images/backgrounds/bg_room.jpg"
+image bg exam = "images/backgrounds/bg_exam.jpg"
+image bg home = "images/backgrounds/bg_home.jpg"
+image bg station = "images/backgrounds/bg_station.jpg"
 image bg gate = "images/backgrounds/bg_gate.jpg"
 image bg campus = "images/backgrounds/bg_campus.jpg"
 image bg vet = "images/backgrounds/bg_vet.jpg"
