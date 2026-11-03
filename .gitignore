@@ -1,0 +1,25 @@
+# Private originals, personal notes and unapproved reference material
+/private/
+
+# Ren'Py generated files and local data
+*.rpyc
+*.rpymc
+*.rpyb
+**/cache/
+**/saves/
+log.txt
+traceback.txt
+errors.txt
+lint.txt
+*.log
+
+# Local tooling and build output
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+/build/
+/dist/
+*-dists/
+/renpy-*-sdk/
