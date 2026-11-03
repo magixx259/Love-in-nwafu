@@ -104,41 +104,37 @@ label prologue_table:
 
     scene bg home with dissolve
     "最后，我还是坐下来，把表填了。"
-    "第一志愿那一栏，我写了——"
+    "屏幕上是那张志愿表，六个空格，每个空格后面都要选一个专业。"
+    "后面五个空格，我照着名字随便填了填。第一个空格，我一直空着。"
+    "填哪个，好像都一样。"
+    "又好像，填哪个都不一样。"
 
-    menu:
-        "动物医学":
-            jump prologue_pick_vet
-        "植物保护":
-            jump prologue_locked
-        "机械设计制造及其自动化":
-            jump prologue_locked
-        "算了，服从调剂吧。":
-            jump prologue_adjust
+    python:
+        import random
+        pool = [m for _college, _majors in COLLEGE_MAJORS for m in _majors if m not in OPEN_MAJORS]
+        picked = random.sample(pool, 5)
+        vol_slots = ["", picked[0], picked[1], picked[2], picked[3], picked[4]]
+        vol_active = 0
 
-label prologue_locked:
-    "我在那一栏写下了几个字。"
-    "笔尖停在纸上，忽然有点不确定。"
-    $ renpy.notify("该学院在当前试玩版中暂未开放。")
-    "（当前试玩版只开放动物医学院，其他学院会在后续更新中开放。）"
-    "我把那行字划掉，重新写。"
-    jump prologue_table
+    $ quick_menu = False
+    call screen volunteer_form
+    $ quick_menu = True
+    $ vol_first = _return
 
-label prologue_adjust:
-    "我把第一志愿那一栏空着，在最后一行打了个勾：服从调剂。"
-    "写完我自己都笑了。"
-    "连想去哪儿都懒得想，那就让别人替我决定吧。"
-    "后来证明，替我决定的人还挺靠谱。"
-    jump prologue_pick_vet
+    if vol_first == "机械设计制造及其自动化":
+        "第一志愿，我填了机械设计制造及其自动化。"
+        "点下提交，页面转了很久。"
+        "「很抱歉，您所填报的专业今年在本省没有招生计划，是否服从调剂？」"
+        "我盯着这行字看了一会儿，点了「是」。"
+        "屏幕上跳出一个新的名字：动物医学院，动物医学。"
+        "……原来专业也是可以被安排的。"
+    else:
+        "第一志愿，我填了动物医学。"
+        "提交页面转了一下，「提交成功」。"
+        "我盯着那四个字，半天没动。"
 
-label prologue_pick_vet:
-
-    "第一志愿：西北农林科技大学。"
-    "专业：动物医学院。"
-    "后面几个空格，我照着去年的分数线填得飞快。"
     "点下提交的那一刻，我忽然有点心慌。"
     "好像刚才那几下点击，就把未来四年按了下去。"
-    "我盯着「提交成功」四个字，半天没动。"
 
     scene bg room with fade
     with Pause(0.3)
