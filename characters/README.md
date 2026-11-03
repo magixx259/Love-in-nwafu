@@ -3,9 +3,9 @@
 | 编号 | 显示名 | 目录 | 当前情况 |
 |---|---|---|---|
 | CH00 | 白行简（默认，可改） | [ch00_bai_xingjian](ch00_bai_xingjian/profile.md) | 已有基础性格和入学心态 |
-| CH01 | 俞菲姐 | [ch01_yufei](ch01_yufei/profile.md) | 动医大三学姐、班助；傲八娇二；外观初版未完善；个人线待选 |
+| CH01 | 俞菲姐 | [ch01_yufei](ch01_yufei/profile.md) | 动医大三学姐、班助；傲八娇二；外观初版未完善；个人线保留，用户思考中 |
 | CH02 | 西西 | [ch02_xixi](ch02_xixi/profile.md) | 动医 2024 级；热闹、怕当局外人；与农农发小；个人线初稿 |
-| CH03 | 农农 | [ch03_nongnong](ch03_nongnong/profile.md) | 植保 2024 级；安静、手稳；与西西发小；个人线初稿 |
+| CH03 | 农农 | [ch03_nongnong](ch03_nongnong/profile.md) | 植保 2024 级；安静、手稳；陕西本地；与西西发小；个人线初稿 |
 
 ## 三人定位
 
