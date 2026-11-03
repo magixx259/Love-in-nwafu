@@ -3,7 +3,7 @@
 | 编号 | 显示名 | 目录 | 当前情况 |
 |---|---|---|---|
 | CH00 | 白行简（默认，可改） | [ch00_bai_xingjian](ch00_bai_xingjian/profile.md) | 已有基础性格和入学心态 |
-| CH01 | 俞菲姐 | [ch01_yufei](ch01_yufei/profile.md) | 已有名字与原创角色来源，性格待补 |
+| CH01 | 俞菲姐 | [ch01_yufei](ch01_yufei/profile.md) | 已确认傲八娇二、大三动医学姐及班助身份；个人线待选 |
 | CH02 | 西西 | [ch02_xixi](ch02_xixi/profile.md) | 已确认参与首日参观，身份与性格待补 |
 | CH03 | 农农 | [ch03_nongnong](ch03_nongnong/profile.md) | 已有名字与参考来源方向，性格待补 |
 
