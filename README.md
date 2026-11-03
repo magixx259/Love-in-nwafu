@@ -6,6 +6,10 @@
 
 ## 第一版资料
 
+- [文件夹导航：什么放在哪里](docs/project/folder-guide.md)
+- [当前已确认设定与待定事项](docs/project/current-scope.md)
+- [人物目录](characters/README.md)
+- [对话资料归档方式](docs/project/conversation-intake.md)
 - [第一天场景与内容范围](docs/day01/01-story-outline.md)
 - [素材清单、优先级与验收标准](docs/day01/02-asset-checklist.md)
 - [给创作者的资料填写模板](docs/day01/03-input-template.md)
@@ -17,7 +21,9 @@
 
 ## 本地资料
 
-个人原始照片、未确认许可的参考图和填写中的私人故事，请放到项目目录内的 `private/`。此目录已被 Git 忽略，不随正常提交上传。
+个人原始照片、未确认许可的参考图和填写中的私人故事，请放到项目目录内的 `private/`。此目录已被 Git 忽略，不随正常提交上传。已填写的原始资料完整保存在本地 `private/notes/`；公开填写模板保持空白，已确认的虚构角色设定分别整理到人物卡。
+
+以后可以直接在对话里提供角色、故事、照片和修改意见，由制作方整理进对应目录，不必手动填写全部文档。
 
 仓库中的 `assets/` 只收录确认可随项目分发的素材。引擎安装文件、存档和构建产物不入库。
 
