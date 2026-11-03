@@ -23,3 +23,8 @@ Thumbs.db
 /dist/
 *-dists/
 /renpy-*-sdk/
+
+# Ren'Py 运行时产物
+game/saves/
+game/cache/
+game/tl/
